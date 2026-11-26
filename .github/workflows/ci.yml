@@ -1,0 +1,59 @@
+name: CI — sifat nazorati
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: HTML va JavaScript tekshiruvi
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Repozitoriyani olish
+        uses: actions/checkout@v4
+
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: HTML tuzilmasi va xavfsizlik tekshiruvi
+        run: python3 scripts/check_app.py
+
+      - name: Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: JavaScript sintaksisini tekshirish
+        run: node --check build/app.js
+
+      - name: Hisobotni job summary'ga qo'shish
+        if: always()
+        run: |
+          if [ -f build/check-report.txt ]; then
+            cat build/check-report.txt >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "Tekshiruv hisoboti yaratilmadi." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Namuna artefaktini tayyorlash
+        run: |
+          mkdir -p dist
+          cp index.html dist/index.html
+          cp build/check-report.json dist/check-report.json
+
+      - name: Artefaktni yuklash
+        uses: actions/upload-artifact@v4
+        with:
+          name: dorimed-build
+          path: dist/
+          retention-days: 14
