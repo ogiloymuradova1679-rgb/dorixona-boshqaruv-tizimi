@@ -1,0 +1,17 @@
+﻿Issue key,Summary,Issue type,Priority,Story Points,Sprint,Labels,Status
+DOR-01,"Dorilar registrini ko‘rish, qidirish va filtrlash",Story,high,3,Sprint 1,feature,Done
+DOR-02,Yangi dori kartochkasini qo‘shish,Story,high,5,Sprint 1,feature,Done
+DOR-03,Dorini tahrirlash va o‘chirish,Story,high,3,Sprint 1,feature,Done
+DOR-04,Ishlab chiqaruvchilar bazasini yuritish,Story,high,3,Sprint 1,feature,Done
+DOR-05,Kirim operatsiyasini qayd etish,Story,high,5,Sprint 1,feature,Done
+DOR-06,Chiqim va qoldiq nazorati,Story,high,8,Sprint 1,feature,Done
+DOR-07,Muddat va kam qoldiq ogohlantirishlari,Story,high,5,Sprint 1,feature,Done
+DOR-08,Boshqaruv panelida KPI ko‘rsatkichlari,Story,high,5,Sprint 2,feature,Done
+DOR-09,Kirim-chiqim va kategoriyalar diagrammasi,Story,medium,5,Sprint 2,feature,Done
+DOR-10,"Ombor hisoboti, CSV va chop etish",Story,high,5,Sprint 2,feature,Done
+DOR-11,JSON zaxira nusxasi va tiklash,Story,medium,3,Sprint 2,feature,Done
+DOR-12,Mobil qurilmada qulay foydalanish,Story,high,5,Sprint 2,feature,Done
+DOR-13,GitHub Pages demo va README,Story,high,3,Sprint 2,feature,Done
+DOR-14,CI orqali sifatni avtomatik tekshirish,Story,high,5,Sprint 2,feature,Done
+DOR-15,Ma’lumotlarni brauzerda saqlash,Story,high,2,Sprint 1,feature,Done
+DOR-16,Demo ma’lumotlarini qayta tiklash,Story,low,2,Sprint 2,feature,Done

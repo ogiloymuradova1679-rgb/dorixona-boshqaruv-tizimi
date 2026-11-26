@@ -9,7 +9,7 @@
 | Buyurtmachi | Urganch davlat universiteti, «Loyihalarni boshqarish» fani |
 | Ijrochi | Murodova O'g'iloy Qahramon qizi, KIDT, 236-guruh |
 | Qabul qiluvchi | Xusainov Shixnazar |
-| Boshlanish | 07.09.2026 |
+| Boshlanish | 05.10.2026 |
 | Yakun | 13.12.2026 |
 | Platforma | Web ilova |
 | Byudjet | 0 so'm to'g'ridan-to'g'ri xarajat; 120 soat mehnat |
@@ -56,29 +56,29 @@ Dorilar, ishlab chiqaruvchilar, kirim-chiqim va hisobotlarni yagona interfeysda 
 | D3 | GitHub repozitoriyasi va README | 1-hafta |
 | D4 | User story va sprint reja | 3-hafta |
 | D5 | Gantt diagrammasi va risk registri | 5-hafta |
-| D6 | CI pipeline va code review dalillari | 10-hafta |
-| D7 | 7 ta laboratoriya hujjati | 13-hafta |
-| D8 | Yakuniy demo va himoya | 14-hafta |
+| D6 | CI pipeline va code review dalillari | 6-hafta |
+| D7 | 7 ta laboratoriya hujjati | 9-hafta |
+| D8 | Yakuniy demo va himoya | 10-hafta |
 
 ## 6. Bosqichlar
 
 | Bosqich | Asosiy ish | Natija | Sana |
 |---|---|---|---|
-| I. Tashabbus | Muammo tahlili, xartiya, repo | D3 | 07–13.09 |
-| II. Talablar | User story, acceptance criteria, prioritet | D4 | 14–27.09 |
+| I. Tashabbus | Muammo tahlili, xartiya, repo | D3 | 05–11.10 |
+| II. Talablar | User story, acceptance criteria, prioritet | D4 | 12–18.10 |
 | III. Dizayn | Interfeys eskizi, ma'lumotlar modeli | prototip | 21.09–04.10 |
-| IV. Ishlab chiqish | Dorilar, hamkorlar, kirim-chiqim | D1 beta | 28.09–25.10 |
-| V. Tahlil | Hisobot, diagrammalar, CSV | D1 | 12.10–01.11 |
-| VI. Sifat | CI, code review, testlar | D6 | 19.10–15.11 |
-| VII. Hujjat | 7 ta laboratoriya ishi | D7 | 02.11–29.11 |
-| VIII. Topshirish | Demo, himoya | D8 | 30.11–13.12 |
+| IV. Ishlab chiqish | Dorilar, hamkorlar, kirim-chiqim | D1 beta | 19.10–13.11 |
+| V. Tahlil | Hisobot, diagrammalar, CSV | D1 | 02–13.11 |
+| VI. Sifat | CI, code review, testlar | D6 | 02–24.11 |
+| VII. Hujjat | 7 ta laboratoriya ishi | D7 | 02.11–06.12 |
+| VIII. Topshirish | Demo, himoya | D8 | 07–13.12 |
 
 ## 7. Resurslar
 
 - **Inson resursi:** 1 nafar talaba (loyiha menejeri, analitik, dasturchi, tester va hujjatchi rollarida).
 - **Texnika:** shaxsiy kompyuter, brauzer, Git, Python, LibreOffice.
 - **Xizmatlar:** GitHub Free, GitHub Actions, GitHub Pages.
-- **Vaqt:** haftasiga 8–10 soat, jami taxminan 120 soat.
+- **Vaqt:** haftasiga 10–14 soat, jami taxminan 120 soat.
 - **Moliyaviy xarajat:** 0 so'm (bepul xizmatlar).
 
 ## 8. Manfaatdor tomonlar

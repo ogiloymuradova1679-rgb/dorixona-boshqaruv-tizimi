@@ -96,7 +96,19 @@ dorixona-boshqaruv-tizimi/
 - [Texnik topshiriq](docs/TEXNIK_TOPSHIRIQ.md)
 - [Arxitektura](docs/ARXITEKTURA.md)
 - [Loyiha xartiyasi](docs/LOYIHA_XARTIYASI.md)
-- Laboratoriya ishlari: `docs/lablar/` papkasida 7 ta DOCX fayl.
+- [Jira backlog — CSV](docs/jira-backlog.csv)
+
+### Laboratoriya ishlari (DOCX)
+
+| № | Mavzu | Hujjat |
+|---|---|---|
+| L1 | Loyiha xartiyasi va GitHub repo | [L1_Loyiha_xartiyasi_va_GitHub.docx](docs/lablar/L1_Loyiha_xartiyasi_va_GitHub.docx) |
+| L2 | User story va Planning Poker | [L2_User_story_va_Planning_Poker.docx](docs/lablar/L2_User_story_va_Planning_Poker.docx) |
+| L3 | Jira sprint va Git Pull Request | [L3_Jira_sprint_va_Git.docx](docs/lablar/L3_Jira_sprint_va_Git.docx) |
+| L4 | Gantt diagrammasi va risk registri | [L4_Gantt_va_Risk_registr.docx](docs/lablar/L4_Gantt_va_Risk_registr.docx) |
+| L5 | Code review va CI pipeline | [L5_Code_review_va_CI.docx](docs/lablar/L5_Code_review_va_CI.docx) |
+| L6 | Sprint retrospektivasi va burndown | [L6_Retrospektiva_va_Burndown.docx](docs/lablar/L6_Retrospektiva_va_Burndown.docx) |
+| L7 | COCOMO, MLOps va yakuniy himoya | [L7_COCOMO_va_MLOps.docx](docs/lablar/L7_COCOMO_va_MLOps.docx) |
 
 ## Loyiha boshqaruvi
 
@@ -105,6 +117,10 @@ dorixona-boshqaruv-tizimi/
 - Pull Request — kod ko'rib chiqish va CI tekshiruvi;
 - GitHub Actions — har bir push va PR'da avtomatik sifat nazorati;
 - GitHub Pages — demo muhiti.
+
+## Reliz
+
+- **v1.0.0** — birinchi yakuniy demo, 2026-yil noyabr: [releases/tag/v1.0.0](https://github.com/ogiloymuradova1679-rgb/dorixona-boshqaruv-tizimi/releases/tag/v1.0.0)
 
 ## Muallif
 

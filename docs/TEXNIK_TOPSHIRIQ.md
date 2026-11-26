@@ -256,10 +256,10 @@ Testlar qo'lda brauzerda va Playwright yordamida avtomatlashtirilgan stsenariyla
 |---|---|---|
 | Tahlil | Texnik topshiriq, user story'lar | 1–2-hafta |
 | Loyihalash | Interfeys eskizi, ma'lumotlar modeli | 3-hafta |
-| Ishlab chiqish | Dorilar, hamkorlar, kirim-chiqim | 4–8-hafta |
-| Hisobot va sifat | Diagrammalar, hisobot, CI | 9–11-hafta |
-| Sinov | Funksional va mobil testlar | 11–12-hafta |
-| Topshirish | Hujjatlar, demo, himoya | 13–14-hafta |
+| Ishlab chiqish | Dorilar, hamkorlar, kirim-chiqim | 3–6-hafta |
+| Hisobot va sifat | Diagrammalar, hisobot, CI | 5–7-hafta |
+| Sinov | Funksional va mobil testlar | 6–9-hafta |
+| Topshirish | Hujjatlar, demo, himoya | 9–10-hafta |
 
 ## 12. Qabul qilish mezonlari
 
