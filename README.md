@@ -125,7 +125,7 @@ dorixona-boshqaruv-tizimi/
 ## Muallif
 
 **Murodova O'g'iloy Qahramon qizi**  
-Urganch davlat universiteti, Kompyuter injiniring fakulteti  
+Abu Rayhon Beruniy nomidagi Urganch davlat universiteti, Kompyuter injiniring fakulteti  
 KIDT yo'nalishi, masofaviy 236-guruh  
 Fan: Loyihalarni boshqarish  
 Qabul qiluvchi: Xusainov Shixnazar
