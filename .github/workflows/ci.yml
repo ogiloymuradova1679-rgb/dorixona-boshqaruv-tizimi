@@ -18,10 +18,10 @@ jobs:
 
     steps:
       - name: Repozitoriyani olish
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Python 3.12
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.12'
 
@@ -29,9 +29,9 @@ jobs:
         run: python3 scripts/check_app.py
 
       - name: Node.js 20
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: JavaScript sintaksisini tekshirish
         run: node --check build/app.js
@@ -52,7 +52,7 @@ jobs:
           cp build/check-report.json dist/check-report.json
 
       - name: Artefaktni yuklash
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: dorimed-build
           path: dist/
