@@ -4,13 +4,13 @@ Bu papkada «Loyihalarni boshqarish» fanidan 7 ta laboratoriya ishi DOCX format
 
 | Fayl | Mavzu | Sahifalar (LibreOffice hisobida) |
 |---|---|---:|
-| `L1_Loyiha_xartiyasi_va_GitHub.docx` | Loyiha xartiyasi, texnik topshiriq, GitHub repo | 12 |
-| `L2_User_story_va_Planning_Poker.docx` | User story, qabul mezonlari, Planning Poker | 11 |
-| `L3_Jira_sprint_va_Git.docx` | Jira sprint/backlog, Git branch, Pull Request | 11 |
-| `L4_Gantt_va_Risk_registr.docx` | WBS, Gantt, risk registri | 11 |
-| `L5_Code_review_va_CI.docx` | Code review, GitHub Actions CI | 11 |
-| `L6_Retrospektiva_va_Burndown.docx` | Sprint retrospektivasi, burndown tahlili | 11 |
-| `L7_COCOMO_va_MLOps.docx` | COCOMO, MLOps rejasi, yakuniy himoya | 12 |
+| `L1_Loyiha_xartiyasi_va_GitHub.docx` | Loyiha xartiyasi, texnik topshiriq, GitHub repo | 15 |
+| `L2_User_story_va_Planning_Poker.docx` | User story, qabul mezonlari, Planning Poker | 14 |
+| `L3_Jira_sprint_va_Git.docx` | Jira sprint/backlog, Git branch, Pull Request | 14 |
+| `L4_Gantt_va_Risk_registr.docx` | WBS, Gantt, risk registri | 14 |
+| `L5_Code_review_va_CI.docx` | Code review, GitHub Actions CI | 14 |
+| `L6_Retrospektiva_va_Burndown.docx` | Sprint retrospektivasi, burndown tahlili | 14 |
+| `L7_COCOMO_va_MLOps.docx` | COCOMO, MLOps rejasi, yakuniy himoya | 15 |
 
 Har bir hujjat oxirida GitHub repozitoriyasi, demo va tegishli sahifalarga havolalar keltirilgan.
 
