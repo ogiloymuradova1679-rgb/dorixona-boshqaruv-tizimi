@@ -111,6 +111,7 @@ def main() -> int:
     inline_scripts = [body for src, body in parser.scripts if not src.strip() and body.strip()]
     check(not external_scripts, "Tashqi JavaScript fayllari yo'q", f"Tashqi skriptlar: {external_scripts}")
     check(not re.search(r'<link[^>]+rel=["\']stylesheet', text, re.I), "Tashqi CSS fayli yo'q", "Tashqi stylesheet topildi")
+    check(not re.search(r'@import\s+(?:url\()?["\']?https?://', text, re.I), "CSS @import orqali tashqi resurs yo'q", "Tashqi CSS @import topildi")
     check(len(inline_scripts) == 1, "Bitta inline JavaScript bloki", f"Inline skriptlar soni: {len(inline_scripts)}")
     check("cdn." not in text.lower(), "CDN ishlatilmagan", "CDN havolasi topildi")
     check("eval(" not in text and "document.write(" not in text, "Xavfsiz bo'lmagan eval/document.write yo'q", "eval yoki document.write topildi")

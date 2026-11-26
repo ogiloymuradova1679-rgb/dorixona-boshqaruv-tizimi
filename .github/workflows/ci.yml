@@ -28,6 +28,11 @@ jobs:
       - name: HTML tuzilmasi va xavfsizlik tekshiruvi
         run: python3 scripts/check_app.py
 
+      - name: Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
       - name: JavaScript sintaksisini tekshirish
         run: node --check build/app.js
 
