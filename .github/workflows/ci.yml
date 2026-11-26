@@ -28,7 +28,7 @@ jobs:
       - name: HTML tuzilmasi va xavfsizlik tekshiruvi
         run: python3 scripts/check_app.py
 
-      - name: Node.js 20
+      - name: Node.js 24
         uses: actions/setup-node@v7
         with:
           node-version: '24'
