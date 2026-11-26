@@ -4,6 +4,8 @@
 
 **Demo:** [ogiloymuradova1679-rgb.github.io/dorixona-boshqaruv-tizimi](https://ogiloymuradova1679-rgb.github.io/dorixona-boshqaruv-tizimi/)
 
+[![CI — sifat nazorati](https://github.com/ogiloymuradova1679-rgb/dorixona-boshqaruv-tizimi/actions/workflows/ci.yml/badge.svg)](https://github.com/ogiloymuradova1679-rgb/dorixona-boshqaruv-tizimi/actions/workflows/ci.yml)
+
 ![DoriMed boshqaruv paneli](docs/assets/app-dashboard.png)
 
 ## Asosiy imkoniyatlar
@@ -33,6 +35,10 @@
 | Sifat nazorati | GitHub Actions, Python tekshiruv skripti |
 
 Ilova ishlashi uchun internet, CDN yoki npm paketlari kerak emas.
+
+## Sifat nazorati
+
+Har bir push va Pull Request’da GitHub Actions ishga tushadi. Workflow `scripts/check_app.py` orqali HTML tuzilmasi, unikal ID’lar, tashqi bog‘liqliklar va xavfsizlik belgilarini tekshiradi, so‘ng inline JavaScript’ni `node --check` bilan sintaksis tekshiruvidan o‘tkazadi. Batafsil: [`.github/workflows/ci.yml`](.github/workflows/ci.yml).
 
 ## Mahalliy ishga tushirish
 
