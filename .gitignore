@@ -1,0 +1,10 @@
+build/
+dist/
+node_modules/
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+*.pdf
+.vscode/
+.idea/
